@@ -1,0 +1,59 @@
+﻿@model Zadanie_.Models.Employee2
+
+@{
+    ViewData["Title"] = "AddLead";
+}
+
+<hr />
+<div class="container">
+    <div class="col-md-10 border-1">
+
+        <form asp-action="DeleteEmployeeDetails">
+            <input asp-for="PersonalNumber" hidden />
+
+            <h2>Delete Employee Details</h2>
+            <hr />
+
+            <div class="row">
+                <div class="col-3">
+                    <label asp-for="FirstName" class="control-label"></label>
+                    <input asp-for="FirstName" class="form-control" readonly />
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <label asp-for="Surname" class="control-label"></label>
+                    <input asp-for="Surname" class="form-control" readonly />
+                </div>
+
+                <div class="col-3">
+                    <label asp-for="DateOfBirth" class="control-label"></label>
+                    <input asp-for="DateOfBirth" class="form-control" readonly />
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <label asp-for="IdentificationNumber" class="control-label"></label>
+                    <input asp-for="IdentificationNumber" class="form-control" readonly />
+                </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <input type="submit" value="Delete" onclick="return confirm('Are you sure you want to delete this?');" class="btn btn-danger" />
+                    <a asp-action="Index" asp-controller="Emp" class="btn btn-warning">Back to The Employees Page</a>
+                </div>
+            </div>
+
+
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

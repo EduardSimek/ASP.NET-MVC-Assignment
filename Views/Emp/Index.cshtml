@@ -1,0 +1,145 @@
+﻿
+@model IEnumerable<Employee2>
+
+<br />
+<h2>Show All Employees</h2>
+<hr />
+<br />
+
+@*Success message *@
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+
+@*Searching button*@
+@using (Html.BeginForm("SearchEmployee", "Emp", FormMethod.Get, new { @style = "margin-bottom: 20px;" }))
+{
+    <input type="submit" value="Search" />
+    <input type="text" name="searchString" placeholder="Enter search term" />
+}
+
+@*Sorting*@
+@{
+    string sortOrder = ViewBag.CurrentSortOrder;
+
+    string nameSortParm = sortOrder == "Name" ? "name_desc" : "Name";
+    string surnameSortParm = sortOrder == "Surname" ? "surname_desc" : "Surname";
+
+    string dateOfBirthSortParm = sortOrder == "DateOfBirth_ASC" ? "DateOfBirth_DESC" : "DateOfBirth_ASC";
+    string iDNumSortParm = sortOrder == "IdentificationNumber_ASC" ? "IdentificationNumber_DESC" : "IdentificationNumber_ASC";
+   
+}
+
+
+<table class="table table-striped">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.PersonalNumber)
+
+            @*@Html.ActionLink(Html.DisplayNameFor(model => model.PersonalNumber).ToString(), "Index2", new { sortOrder = ViewBag.PersonalNumberSortParam })*@
+        </th>
+
+        <th>
+            @*@Html.DisplayNameFor(model => model.FirstName)*@
+
+            @*@Html.ActionLink("First Name", "Index2", new { sortOrder = nameSortParm})*@
+            @*@Html.ActionLink(Html.DisplayNameFor(model => model.FirstName).ToString(), "Index2", new { sortOrder = ViewBag.NameSortParm })*@
+            @Html.ActionLink("Name", "Index2", new { sortingOrder = ViewBag.nameSortParm })
+            @if (ViewBag.CurrentSortOrder == "name_desc")
+            {
+                <i class="fas fa-arrow-down"></i>
+            }
+            else if (ViewBag.CurrentSortOrder == "Name")
+            {
+                <i class="fas fa-arrow-up"></i>
+            }
+
+        </th>
+
+        <th>
+            @*@Html.DisplayNameFor(model => model.Surname)*@
+            @*@Html.ActionLink("Surname Name", "Index2", new { sortOrder = surnameSortParm})*@
+
+            @Html.ActionLink("Surname", "Index2", new { sortingOrder = ViewBag.SurnameSortParm })
+            @if (ViewBag.CurrentSortOrder == "surname_desc")
+            {
+                <i class="fas fa-arrow-down"></i>
+            }
+            else if (ViewBag.CurrentSortOrder == "Surname")
+            {
+                <i class="fas fa-arrow-up"></i>
+            }
+        </th>
+
+        <th>
+            @*@Html.DisplayNameFor(model => model.DateOfBirth)*@
+
+            @Html.ActionLink("DateOfBirth", "Index2", new { sortingOrder = ViewBag.DateOfBirthSortParm })
+            @if (ViewBag.CurrentSortOrder == "DateOfBirth_DESC")
+            {
+                <i class="fas fa-arrow-down"></i>
+            }
+            else if (ViewBag.CurrentSortOrder == "DateOfBirth_ASC")
+            {
+                <i class="fas fa-arrow-up"></i>
+            }
+        </th>
+
+        <th>
+            @*@Html.DisplayNameFor(model => model.IdentificationNumber)*@
+
+            @Html.ActionLink("IdentificationNumber", "Index2", new { sortingOrder = ViewBag.IDNumSortParm })
+            @if (ViewBag.CurrentSortOrder == "IdentificationNumber_DESC")
+            {
+                <i class="fas fa-arrow-down"></i>
+            }
+            else if (ViewBag.CurrentSortOrder == "IdentificationNumber_ASC")
+            {
+                <i class="fas fa-arrow-up"></i>
+            }
+        </th>
+
+    </tr>
+
+    @foreach (var emp in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => emp.PersonalNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => emp.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => emp.Surname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => emp.DateOfBirth)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => emp.IdentificationNumber)
+            </td>
+            <td>
+                <form asp-action="EditEmployee" asp-route-PersonalNumber="@emp.PersonalNumber" method="post" style="display: inline-block;">
+                    <button type="submit" class="btn btn-info">
+                        <i class="bg-info bi-pen"></i> Edit
+                    </button>
+                </form>
+                <form asp-action="DeleteEmployee" asp-route-PersonalNumber="@emp.PersonalNumber" method="post" style="display: inline-block;">
+                    <button type="submit" class="btn btn-danger">
+                        <i class="bi bi-trash"></i> Delete
+                    </button>
+                </form>
+            </td>
+        </tr>
+    }
+
+
+</table>
+
+<br />
+<p>
+    <a asp-action="AddNewEmployee2" asp-controller="AddNewEmp" class="btn btn-primary">Add New Employee</a>
+    <a asp-action="Index" asp-controller="Home" class="btn btn-warning">Back to The Home Page</a>
+</p>

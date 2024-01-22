@@ -1,0 +1,77 @@
+﻿@model Zadanie_.Models.City2
+
+@{
+    ViewData["Title"] = "AddLead";
+}
+
+<hr />
+<div class="container">
+    <div class="col-md-10 border-1">
+
+        <form asp-action="EditCityDetails">
+            @*<input asp-for="CityIdentificator" hidden />*@
+
+            <h2>Edit City Details</h2>
+            <hr />
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <b>@ViewBag.message</b>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <label asp-for="CityIdentificator" class="control-label"></label>
+                    <input asp-for="CityIdentificator" class="form-control" />
+                    <span asp-validation-for="CityIdentificator" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <label asp-for="CityName" class="control-label"></label>
+                    <input asp-for="CityName" class="form-control" />
+                    <span asp-validation-for="CityName" class="text-danger"></span>
+                </div>
+
+                <div class="col-3">
+                    <label asp-for="Country" class="control-label"></label>
+                    <input asp-for="Country" class="form-control" />
+                    <span asp-validation-for="Country" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <label asp-for="_Coordinates.Latitude" class="control-label"></label>
+                    <input asp-for="_Coordinates.Latitude" class="form-control" />
+                    <span asp-validation-for="_Coordinates.Latitude" class="text-danger"></span>
+                </div>
+
+                <div class="col-3">
+                    <label asp-for="_Coordinates.Longitude" class="control-label"></label>
+                    <input asp-for="_Coordinates.Longitude" class="form-control" />
+                    <span asp-validation-for="_Coordinates.Longitude" class="text-danger"></span>
+                </div>
+            </div>
+
+                <div class="row">
+                    <div class="col-3">
+                        <input type="submit" value="Edit" class="btn btn-primary" />
+                        <a asp-action="Index" asp-controller="City" class="btn btn-warning">Back to The Employees Page</a>
+                    </div>
+                </div>
+
+
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

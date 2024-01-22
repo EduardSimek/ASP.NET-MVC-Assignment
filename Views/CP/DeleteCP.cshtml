@@ -1,0 +1,74 @@
+﻿@model Zadanie_.Models.CP2
+
+
+@{
+    ViewData["Title"] = "AddLead";
+}
+
+<hr />
+<div class="container">
+    <div class="col-md-10 border-1">
+
+        <form asp-action="DeleteCPDetails">
+            <input asp-for="CP_Identificator" hidden />
+
+            <h2>Delete CP Details</h2>
+            <hr />
+
+            <div class="row">
+                <div class="col-3">
+                    <label asp-for="CP_Date" class="control-label"></label>
+                    <input asp-for="CP_Date" class="form-control" readonly />
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <label asp-for="EmployeePersonalNumber" class="control-label"></label>
+                    <input asp-for="EmployeePersonalNumber" class="form-control" readonly />
+                </div>
+
+                <div class="col-3">
+                    <label asp-for="StartCityID" class="control-label"></label>
+                    <input asp-for="StartCityID" class="form-control" readonly />
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <label asp-for="EndCityID" class="control-label"></label>
+                    <input asp-for="EndCityID" class="form-control" readonly />
+                </div>
+
+                <div class="col-3">
+                    <label asp-for="StartTime" class="control-label"></label>
+                    <input asp-for="StartTime" class="form-control" readonly />
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-3">
+                    <label asp-for="EndTime" class="control-label"></label>
+                    <input asp-for="EndTime" class="form-control" readonly />
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <input type="submit" value="Delete" onclick="return confirm('Are you sure you want to delete this?');" class="btn btn-danger" />
+                    <a asp-action="Index" asp-controller="CP" class="btn btn-warning">Back to The CP Page</a>
+                </div>
+            </div>
+
+
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

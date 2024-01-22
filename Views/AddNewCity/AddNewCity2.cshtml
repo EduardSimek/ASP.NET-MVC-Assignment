@@ -1,0 +1,75 @@
+﻿@model Zadanie_.Models.City2
+
+@{
+    ViewData["Title"] = "AddingNewEmp";
+}
+
+
+
+<!-- Displaying Error Message-->
+@if (ViewData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @ViewData["ErrorMessage"]
+    </div>
+}
+
+<div class="container">
+    <div class="col-md-10 border-1">
+
+        <form asp-action="AddNewCity">
+
+            <h2>Create New City</h2>
+            <hr />
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div asp-validation-summary="All" class="text-danger"></div>
+
+            <div class="row">
+                <div class="col-3">
+                    <label asp-for="CityName" class="control-label"></label>
+                    <input asp-for="CityName" class="form-control" />
+                    <span asp-validation-for="CityName" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <label asp-for="Country" class="control-label"></label>
+                    <input asp-for="Country" class="form-control" />
+                    <span asp-validation-for="Country" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <label asp-for="_Coordinates.Longitude" class="control-label"></label>
+                    <input asp-for="_Coordinates.Longitude" class="form-control" />
+                    <span asp-validation-for="_Coordinates.Longitude" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <label asp-for="_Coordinates.Latitude" class="control-label"></label>
+                    <input asp-for="_Coordinates.Latitude" class="form-control" />
+                    <span asp-validation-for="_Coordinates.Latitude" class="text-danger"></span>
+                </div>
+            </div>
+
+            <br />
+
+            <div class="form-group">
+                <input type="submit" value="Create New City" class="btn btn-primary" />
+                <a asp-action="Index" asp-controller="City" class="btn btn-warning">Back to All Cities</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

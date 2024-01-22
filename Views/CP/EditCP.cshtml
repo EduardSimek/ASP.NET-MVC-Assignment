@@ -1,0 +1,84 @@
+﻿@model Zadanie_.Models.CP2
+
+@{
+    ViewData["Title"] = "AddLead";
+}
+
+<hr />
+<div class="container">
+    <div class="col-md-10 border-1">
+
+        <form asp-action="EditCPDetails">
+            <input asp-for="CP_Identificator" hidden />
+
+            <h2>Edit CP Details</h2>
+            <hr />
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <b>@ViewBag.message</b>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <label asp-for="CP_Date" class="control-label"></label>
+                    <input asp-for="CP_Date" class="form-control" />
+                    <span asp-validation-for="CP_Date" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <label asp-for="EmployeePersonalNumber" class="control-label"></label>
+                    <input asp-for="EmployeePersonalNumber" class="form-control" />
+                    <span asp-validation-for="EmployeePersonalNumber" class="text-danger"></span>
+                </div>
+
+                <div class="col-3">
+                    <label asp-for="StartCityID" class="control-label"></label>
+                    <input asp-for="StartCityID" class="form-control" />
+                    <span asp-validation-for="StartCityID" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <label asp-for="EndCityID" class="control-label"></label>
+                    <input asp-for="EndCityID" class="form-control" />
+                    <span asp-validation-for="EndCityID" class="text-danger"></span>
+                </div>
+                <div class="col-3">
+                    <label asp-for="StartTime" class="control-label"></label>
+                    <input asp-for="StartTime" class="form-control" />
+                    <span asp-validation-for="StartTime" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <label asp-for="EndTime" class="control-label"></label>
+                    <input asp-for="EndTime" class="form-control" />
+                    <span asp-validation-for="EndTime" class="text-danger"></span>
+                </div>
+            </div>
+
+                <div class="row">
+                    <div class="col-3">
+                        <input type="submit" value="Edit" class="btn btn-primary" />
+                        <a asp-action="Index" asp-controller="CP" class="btn btn-warning">Back to The CP Page</a>
+                    </div>
+                </div>
+
+
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

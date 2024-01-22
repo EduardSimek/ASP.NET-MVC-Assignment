@@ -1,0 +1,80 @@
+﻿@model Zadanie_.Models.Employee2
+
+@{
+    ViewData["Title"] = "AddLead";
+}
+
+<hr />
+<div class="container">
+    <div class="col-md-10 border-1">
+
+        <form asp-action="EditEmployeeDetails">
+            <input asp-for="PersonalNumber" hidden />
+
+            <h2>Edit Employee Details</h2>
+            <hr />
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <b>@ViewBag.message</b>
+                </div>
+            </div>
+
+            @*
+            <div class="row">
+            <div class="col-3">
+            <label asp-for="PersonalNumber" class="control-label"></label>
+            <input asp-for="PersonalNumber" class="form-control" />
+            <span asp-validation-for="PersonalNumber" class="text-danger"></span>
+            </div>
+            </div>
+            *@
+
+            <div class="row">
+                <div class="col-3">
+                    <label asp-for="FirstName" class="control-label"></label>
+                    <input asp-for="FirstName" class="form-control" />
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <label asp-for="Surname" class="control-label"></label>
+                    <input asp-for="Surname" class="form-control" />
+                    <span asp-validation-for="Surname" class="text-danger"></span>
+                </div>
+
+                <div class="col-3">
+                    <label asp-for="DateOfBirth" class="control-label"></label>
+                    <input asp-for="DateOfBirth" class="form-control" />
+                    <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <label asp-for="IdentificationNumber" class="control-label"></label>
+                    <input asp-for="IdentificationNumber" class="form-control" />
+                    <span asp-validation-for="IdentificationNumber" class="text-danger"></span>
+                </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <input type="submit" value="Edit" class="btn btn-primary" />
+                    <a asp-action="Index" asp-controller="Emp" class="btn btn-warning">Back to The Employees Page</a>
+                </div>
+            </div>
+
+
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,143 @@
+﻿
+
+@model IEnumerable<City2>
+
+<br />
+<h2>Show All Cities</h2>
+<hr />
+<br />
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+
+@using (Html.BeginForm("SearchCity", "City", FormMethod.Get, new { @style = "margin-bottom: 20px;" }))
+{
+    <input type="submit" value="Search" />
+    <input type="text" name="searchString" placeholder="Enter search term" />
+}
+
+@*Sorting*@
+@{
+    string sortOrder = ViewBag.CurrentSortOrder;
+
+    string city_ID = sortOrder == "City_ASC" ? "City_DESC" : "City_ASC";
+
+    string startingCitySortParm = sortOrder == "CityName_ASC" ? "CityName_DESC" : "CityName_ASC";
+
+    //string endingCitySortParm = sortOrder == "EndingCity_ASC" ? "EndingCity_DESC" : "EndingCity_ASC";
+    string countrySortParm = sortOrder == "Country_ASC" ? "Country_DESC" : "Country_ASC";
+
+}
+
+<table class="table table-striped">
+    <tr>
+        <th>
+            @*@Html.DisplayNameFor(model => model.CityIdentificator)*@
+
+            @Html.ActionLink("ID", "Index2City", new { sortingOrder = ViewBag.city_ID })
+            @if (ViewBag.CurrentSortOrder == "City_DESC")
+            {
+                <i class="fas fa-arrow-down"></i>
+            }
+            else if (ViewBag.CurrentSortOrder == "City_ASC")
+            {
+                <i class="fas fa-arrow-up"></i>
+            }
+        </th>
+
+        <th>
+            @*@Html.DisplayNameFor(model => model.StartingCity)*@
+
+            @Html.ActionLink("City Name", "Index2City", new { sortingOrder = ViewBag.startingCitySortParm })
+            @if (ViewBag.CurrentSortOrder == "CityName_DESC")
+            {
+                <i class="fas fa-arrow-down"></i>
+            }
+            else if (ViewBag.CurrentSortOrder == "CityName_ASC")
+            {
+                <i class="fas fa-arrow-up"></i>
+            }
+        </th>
+
+        <th>
+            @*@Html.DisplayNameFor(model => model.EndingCity)*@
+
+            @Html.ActionLink("Country", "Index2City", new { sortingOrder = ViewBag.countrySortParm })
+            @if (ViewBag.CurrentSortOrder == "Country_DESC")
+            {
+                <i class="fas fa-arrow-down"></i>
+            }
+            else if (ViewBag.CurrentSortOrder == "Country_ASC")
+            {
+                <i class="fas fa-arrow-up"></i>
+            }
+        </th>
+
+       @*
+           <th>
+            @Html.DisplayNameFor(model => model.Country)
+
+            @Html.ActionLink("Country", "Index2City", new { sortingOrder = ViewBag.countrySortParm })
+            @if (ViewBag.CurrentSortOrder == "Country_DESC")
+            {
+                <i class="fas fa-arrow-down"></i>
+            }
+            else if (ViewBag.CurrentSortOrder == "Country_ASC")
+            {
+                <i class="fas fa-arrow-up"></i>
+            }
+        </th>
+       *@ 
+
+        <th>
+            Coordinates (Longitude, Latitude)
+        </th>
+
+    </tr>
+
+    @foreach (var city in Model)
+    {
+        <tr>
+            <th>
+                @Html.DisplayFor(modelItem => city.CityIdentificator)
+            </th>
+
+            <td>
+                @Html.DisplayFor(modelItem => city.CityName)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => city.Country)
+            </td>
+
+            <td>
+                @(city._Coordinates.Longitude), @(city._Coordinates.Latitude)
+            </td>
+
+            <td>
+                <form asp-action="EditCity" asp-route-CityIdentificator="@city.CityIdentificator" method="post" style="display: inline-block;">
+                    <button type="submit" class="btn btn-info">
+                        <i class="bg-info bi-pen"></i> Edit
+                    </button>
+                </form>
+
+                <form asp-action="DeleteCity" asp-route-CityIdentificator="@city.CityIdentificator" method="post" style="display: inline-block;">
+                    <button type="submit" class="btn btn-danger">
+                        <i class="bi bi-trash"></i> Delete
+                    </button>
+                </form>
+            </td>
+
+        </tr>
+    }
+
+
+</table>
+
+<br />
+<p>
+    <a asp-action="AddNewCity2" asp-controller="AddNewCity" class="btn btn-primary">Add New City</a>
+    <a asp-action="Index" asp-controller="Home" class="btn btn-warning">Back to The Home Page</a>
+</p>

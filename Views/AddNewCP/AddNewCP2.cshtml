@@ -1,0 +1,83 @@
+﻿@model Zadanie_.Models.CP2
+
+@{
+    ViewData["Title"] = "AddingNewEmp";
+}
+
+
+
+<!-- Displaying Error Message-->
+@if (ViewData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @ViewData["ErrorMessage"]
+    </div>
+}
+
+<div class="container">
+    <div class="col-md-10 border-1">
+
+        <form asp-action="AddNewCP">
+
+            <h2>Create New CP</h2>
+            <hr />
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div asp-validation-summary="All" class="text-danger"></div>
+
+            <div class="row">
+                <div class="col-3">
+                    <label asp-for="EmployeePersonalNumber" class="control-label"></label>
+                    <input asp-for="EmployeePersonalNumber" class="form-control" />
+                    <span asp-validation-for="EmployeePersonalNumber" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <label asp-for="StartCityID" class="control-label"></label>
+                    <input asp-for="StartCityID" class="form-control" />
+                    <span asp-validation-for="StartCityID" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <label asp-for="EndCityID" class="control-label"></label>
+                    <input asp-for="EndCityID" class="form-control" />
+                    <span asp-validation-for="EndCityID" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <label asp-for="StartTime" class="control-label"></label>
+                    <input asp-for="StartTime" class="form-control" />
+                    <span asp-validation-for="StartTime" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-3">
+                    <label asp-for="EndTime" class="control-label"></label>
+                    <input asp-for="EndTime" class="form-control" />
+                    <span asp-validation-for="EndTime" class="text-danger"></span>
+                </div>
+            </div>
+
+            <br />
+
+            <div class="form-group">
+                <input type="submit" value="Create New CP" class="btn btn-primary" />
+                <a asp-action="Index" asp-controller="CP" class="btn btn-warning">Back to All CP</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

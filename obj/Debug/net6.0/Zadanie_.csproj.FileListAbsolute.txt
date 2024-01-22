@@ -1,0 +1,180 @@
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\bin\Debug\net6.0\appsettings.json
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\bin\Debug\net6.0\Zadanie_.staticwebassets.runtime.json
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\bin\Debug\net6.0\Zadanie_.exe
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\bin\Debug\net6.0\Zadanie_.deps.json
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\bin\Debug\net6.0\Zadanie_.runtimeconfig.json
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\bin\Debug\net6.0\Zadanie_.dll
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\bin\Debug\net6.0\Zadanie_.pdb
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.csproj.AssemblyReference.cache
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.AssemblyInfoInputs.cache
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.AssemblyInfo.cs
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.csproj.CoreCompileInputs.cache
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.RazorAssemblyInfo.cache
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.RazorAssemblyInfo.cs
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\obj\Debug\net6.0\staticwebassets\msbuild.Zadanie_.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\obj\Debug\net6.0\staticwebassets\msbuild.build.Zadanie_.props
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Zadanie_.props
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Zadanie_.props
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\obj\Debug\net6.0\scopedcss\bundle\Zadanie_.styles.css
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\obj\Debug\net6.0\scopedcss\projectbundle\Zadanie_.bundle.scp.css
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.csproj.CopyComplete
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.dll
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\obj\Debug\net6.0\refint\Zadanie_.dll
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.pdb
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.genruntimeconfig.cache
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\obj\Debug\net6.0\ref\Zadanie_.dll
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\bin\Debug\net6.0\System.Web.Mvc.dll
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\bin\Debug\net6.0\System.Web.Razor.dll
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\bin\Debug\net6.0\System.Web.Helpers.dll
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\bin\Debug\net6.0\System.Web.WebPages.dll
+C:\Users\Eduard Šimek\source\repos\Zadanie_\Zadanie_\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\bin\Debug\net6.0\appsettings.json
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\bin\Debug\net6.0\Zadanie_.staticwebassets.runtime.json
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\bin\Debug\net6.0\Zadanie_.exe
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\bin\Debug\net6.0\Zadanie_.deps.json
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\bin\Debug\net6.0\Zadanie_.runtimeconfig.json
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\bin\Debug\net6.0\Zadanie_.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\bin\Debug\net6.0\Zadanie_.pdb
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\bin\Debug\net6.0\System.Web.Mvc.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\bin\Debug\net6.0\System.Web.Razor.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\bin\Debug\net6.0\System.Web.Helpers.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\bin\Debug\net6.0\System.Web.WebPages.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.csproj.AssemblyReference.cache
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.AssemblyInfoInputs.cache
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.AssemblyInfo.cs
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.csproj.CoreCompileInputs.cache
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.RazorAssemblyInfo.cache
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.RazorAssemblyInfo.cs
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\obj\Debug\net6.0\staticwebassets\msbuild.Zadanie_.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\obj\Debug\net6.0\staticwebassets\msbuild.build.Zadanie_.props
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Zadanie_.props
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Zadanie_.props
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\obj\Debug\net6.0\scopedcss\bundle\Zadanie_.styles.css
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\obj\Debug\net6.0\scopedcss\projectbundle\Zadanie_.bundle.scp.css
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.csproj.CopyComplete
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\obj\Debug\net6.0\refint\Zadanie_.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.pdb
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.genruntimeconfig.cache
+C:\Users\Eduard Šimek\Desktop\Zadanie_\Zadanie_\obj\Debug\net6.0\ref\Zadanie_.dll
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\bin\Debug\net6.0\appsettings.Development.json
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\bin\Debug\net6.0\appsettings.json
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\bin\Debug\net6.0\Zadanie_.staticwebassets.runtime.json
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\bin\Debug\net6.0\Zadanie_.exe
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\bin\Debug\net6.0\Zadanie_.deps.json
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\bin\Debug\net6.0\Zadanie_.runtimeconfig.json
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\bin\Debug\net6.0\Zadanie_.dll
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\bin\Debug\net6.0\Zadanie_.pdb
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\bin\Debug\net6.0\System.Web.Mvc.dll
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\bin\Debug\net6.0\System.Web.Razor.dll
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\bin\Debug\net6.0\System.Web.Helpers.dll
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\bin\Debug\net6.0\System.Web.WebPages.dll
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\bin\Debug\net6.0\System.Data.SqlClient.dll
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.csproj.AssemblyReference.cache
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.GeneratedMSBuildEditorConfig.editorconfig
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.AssemblyInfoInputs.cache
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.AssemblyInfo.cs
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.csproj.CoreCompileInputs.cache
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.MvcApplicationPartsAssemblyInfo.cache
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.RazorAssemblyInfo.cache
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.RazorAssemblyInfo.cs
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\obj\Debug\net6.0\staticwebassets\msbuild.Zadanie_.Microsoft.AspNetCore.StaticWebAssets.props
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\obj\Debug\net6.0\staticwebassets\msbuild.build.Zadanie_.props
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Zadanie_.props
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Zadanie_.props
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\obj\Debug\net6.0\staticwebassets.pack.json
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\obj\Debug\net6.0\staticwebassets.build.json
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\obj\Debug\net6.0\staticwebassets.development.json
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\obj\Debug\net6.0\scopedcss\bundle\Zadanie_.styles.css
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\obj\Debug\net6.0\scopedcss\projectbundle\Zadanie_.bundle.scp.css
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.csproj.CopyComplete
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.dll
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\obj\Debug\net6.0\refint\Zadanie_.dll
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.pdb
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.genruntimeconfig.cache
+E:\ASP.NET MVC zadanie\Zadanie_ tabulka City - funguje\Zadanie_\Zadanie_\obj\Debug\net6.0\ref\Zadanie_.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.csproj.AssemblyReference.cache
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.AssemblyInfoInputs.cache
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.AssemblyInfo.cs
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.csproj.CoreCompileInputs.cache
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.RazorAssemblyInfo.cache
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.RazorAssemblyInfo.cs
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\obj\Debug\net6.0\refint\Zadanie_.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.pdb
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\bin\Debug\net6.0\appsettings.json
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\bin\Debug\net6.0\Zadanie_.staticwebassets.runtime.json
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\bin\Debug\net6.0\Zadanie_.exe
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\bin\Debug\net6.0\Zadanie_.deps.json
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\bin\Debug\net6.0\Zadanie_.runtimeconfig.json
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\bin\Debug\net6.0\Zadanie_.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\bin\Debug\net6.0\Zadanie_.pdb
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\bin\Debug\net6.0\System.Web.Mvc.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\bin\Debug\net6.0\System.Web.Razor.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\bin\Debug\net6.0\System.Web.Helpers.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\bin\Debug\net6.0\System.Web.WebPages.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\obj\Debug\net6.0\staticwebassets\msbuild.Zadanie_.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\obj\Debug\net6.0\staticwebassets\msbuild.build.Zadanie_.props
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Zadanie_.props
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Zadanie_.props
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\obj\Debug\net6.0\scopedcss\bundle\Zadanie_.styles.css
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\obj\Debug\net6.0\scopedcss\projectbundle\Zadanie_.bundle.scp.css
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.csproj.CopyComplete
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\obj\Debug\net6.0\Zadanie_.genruntimeconfig.cache
+C:\Users\Eduard Šimek\Desktop\Zadanie_ tabulka City2\Zadanie_\Zadanie_\obj\Debug\net6.0\ref\Zadanie_.dll

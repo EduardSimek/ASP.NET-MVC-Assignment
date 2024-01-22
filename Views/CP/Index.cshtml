@@ -1,0 +1,213 @@
+﻿
+
+@model IEnumerable<CP2>
+
+<br />
+<h2>Show All CP</h2>
+<hr />
+<br />
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+
+@using (Html.BeginForm("SearchCp", "CP", FormMethod.Get, new { @style = "margin-bottom: 20px;" }))
+{
+    <input type="submit" value="Search" />
+    <input type="text" name="searchString" placeholder="Enter search term" />
+}
+
+@*Sorting*@
+@{
+    string sortOrder = ViewBag.CurrentSortOrder;
+
+    string _CP_ID = sortOrder == "CP_ASC" ? "CP_DESC" : "CP_ASC";
+    string _CP_Employee_ID = sortOrder == "EmployeeID_ASC" ? "EmployeeID_DESC" : "EmployeeID_ASC";
+
+    string _CP_StartCityID = sortOrder == "StartCityID_ASC" ? "StartCityID_DESC" : "StartCityID_ASC";
+    string _CP_EndCityID = sortOrder == "EndCityID_ASC" ? "EndCityID_DESC" : "EndCityID_ASC";
+
+    string _CP_StartTime = sortOrder == "StartTime_ASC" ? "StartTime_DESC" : "StartTime_ASC";
+    string _CP_EndTime = sortOrder == "EndTime_ASC" ? "EndTime_DESC" : "EndTime_ASC";
+   
+
+}
+
+<table class="table table-striped">
+    <tr>
+        <th>
+            @*@Html.DisplayNameFor(model => model.CP_Identificator)*@
+
+            @Html.ActionLink("ID", "Index2CP", new { sortingOrder = ViewBag.CP_ID })
+            @if (ViewBag.CurrentSortOrder == "CP_DESC")
+            {
+                <i class="fas fa-arrow-down"></i>
+            }
+            else if (ViewBag.CurrentSortOrder == "CP_ASC")
+            {
+                <i class="fas fa-arrow-up"></i>
+            }
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.CP_Date)
+        </th>
+
+        <th>
+            @*@Html.DisplayNameFor(model => model.ParticipantOfBusinessTripFirstName)*@
+
+            @Html.ActionLink("Employee Personal Name", "Index2CP", new { sortingOrder = ViewBag.CP_Employee_ID  })
+            @if (ViewBag.CurrentSortOrder == "EmployeeID_DESC")
+            {
+                <i class="fas fa-arrow-down"></i>
+            }
+            else if (ViewBag.CurrentSortOrder == "EmployeeID_ASC")
+            {
+                <i class="fas fa-arrow-up"></i>
+            }
+        </th>
+
+        <th>
+            @*@Html.DisplayNameFor(model => model.ParticipantOfBusinessTripFirstSurname)*@
+
+            @Html.ActionLink("Start CityID", "Index2CP", new { sortingOrder = ViewBag.CP_StartCityID })
+            @if (ViewBag.CurrentSortOrder == "StartCityID_DESC")
+            {
+                <i class="fas fa-arrow-down"></i>
+            }
+            else if (ViewBag.CurrentSortOrder == "StartCityID_ASC")
+            {
+                <i class="fas fa-arrow-up"></i>
+            }
+        </th>
+
+        <th>
+            @*@Html.DisplayNameFor(model => model.StartingPlaceBT)*@
+
+            @Html.ActionLink("End CityID", "Index2CP", new { sortingOrder = ViewBag.CP_EndCityID })
+            @if (ViewBag.CurrentSortOrder == "EndCityID_DESC")
+            {
+                <i class="fas fa-arrow-down"></i>
+            }
+            else if (ViewBag.CurrentSortOrder == "EndCityID_ASC")
+            {
+                <i class="fas fa-arrow-up"></i>
+            }
+
+        </th>
+
+        <th>
+            @*@Html.DisplayNameFor(model => model.EndPlaceBT)*@
+
+            @Html.ActionLink("Start Time", "Index2CP", new { sortingOrder = ViewBag.CP_StartTime })
+            @if (ViewBag.CurrentSortOrder == "StartTime_DESC")
+            {
+                <i class="fas fa-arrow-down"></i>
+            }
+            else if (ViewBag.CurrentSortOrder == "StartTime_ASC")
+            {
+                <i class="fas fa-arrow-up"></i>
+            }
+        </th>
+
+        <th>
+            @*@Html.DisplayNameFor(model => model.StartingTimeBT)*@
+
+            @Html.ActionLink("End Time", "Index2CP", new { sortingOrder = ViewBag.CP_EndTime })
+            @if (ViewBag.CurrentSortOrder == "EndTime_DESC")
+            {
+                <i class="fas fa-arrow-down"></i>
+            }
+            else if (ViewBag.CurrentSortOrder == "EndTime_ASC")
+            {
+                <i class="fas fa-arrow-up"></i>
+            }
+        </th>
+
+        @*
+        @<th>
+        @Html.DisplayNameFor(model => model.EndingTimeBT)
+
+        @Html.ActionLink("Ending Time", "Index2CP", new { sortingOrder = ViewBag.BTStartingTimeSortParm })
+        @if (ViewBag.CurrentSortOrder == "BTEndingTime_DESC")
+        {
+        <i class="fas fa-arrow-down"></i>
+        }
+        else if (ViewBag.CurrentSortOrder == "BTEndingTime_ASC")
+        {
+        <i class="fas fa-arrow-up"></i>
+        }
+        </th>
+        *@
+
+        @*<th>
+        @Html.DisplayNameFor(model => model.AvailableTransportTypes)
+        </th>
+        <th>
+        @Html.DisplayNameFor(model => model.Status)
+        </th>*@
+        
+    </tr>
+
+    @foreach (var cp in Model)
+    {
+        @*@Html.HiddenFor(model => cp.CP_Identificator)*@
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => cp.CP_Identificator)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => cp.CP_Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => cp.EmployeePersonalNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => cp.StartCityID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => cp.EndCityID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => cp.StartTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => cp.EndTime)
+            </td>
+ 
+
+             @*
+            <td>
+                @Html.DisplayFor(modelItem => cp.AvailableTransportTypes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => cp.Status)
+            </td>
+            *@
+
+            <td>
+                <form asp-action="EditCP" asp-route-CP_Identificator="@cp.CP_Identificator" method="post" style="display: inline-block;">
+                    <button type="submit" class="btn btn-info">
+                        <i class="bg-info bi-pen"></i> Edit CP
+                    </button>
+                </form>
+                <form asp-action="DeleteCP" asp-route-CP_Identificator="@cp.CP_Identificator" method="post"  style="display: inline-block;">
+                    <button type="submit" class="btn btn-danger">
+                        <i class="bi bi-trash"></i> Delete
+                    </button>
+                </form>
+            </td>
+        </tr>
+    }
+
+
+
+
+</table>
+
+<br />
+<p>
+    <a asp-action="AddNewCP2" asp-controller="AddNewCP" class="btn btn-primary">Add New CP</a>
+    <a asp-action="Index" asp-controller="Home" class="btn btn-warning">Back to The Home Page</a>
+</p>
